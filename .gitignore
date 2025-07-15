@@ -1,0 +1,20 @@
+# Ignore everything
+/*
+
+# Allow Git to see .gitignore and README
+!.gitignore
+!README.md
+
+# Allow source code
+!src/
+!src/**/*.ts
+
+# Allow package manifest
+!package.json
+!pnpm-lock.yaml
+
+# Allow TypeScript config
+!tsconfig.json
+
+# Optional: allow scripts or configs
+!scripts/
